@@ -1,0 +1,6 @@
+echo " enter oldfile_name nd newfile_name"
+old=$1
+new=$2
+ mv old new
+echo $?
+
